@@ -13,10 +13,9 @@ function calcularTotal(){
     resultado.style.display = 'flex';
 
     resultado.innerHTML = ` 
-            <ul>
-            <li><span>Voce quer saber o preço total gasto</span> </li>
-            <li>quantidade de produtos escolhidos: <span> ${v01} </span> e preço dos produtos escolhidos foi <span> ${v02.toFixed(2)} </span> </li>       
-            <li>O valor gasto é: ${v01} * ${v02} = <span> ${v01 * v02.toFixed(2)}</span></li>
+        <p>Total a pagar<p><br>
+        <p>Foram comprados ${v01} produtos cada um custou R$${v02.toFixed(2)}</p><br>
+        <p>O valor a pagar sera de R$${(v01 * v02).toFixed(2)}</p>
         </ul>`
 }
 };
@@ -32,13 +31,10 @@ function desconto(){
     resultado.style.display = 'flex';
 
     resultado.innerHTML = `
-                <h2>Contas</h2>
-               <ul>
-                   <li>Função: <span>DESCONTO</span> </li>
-                   <li>Preço total sem desconto: <span> ${v01} </span> </li>
-                   <li>Quantidade de desconto a receber: <span>${v02}</span> </li>       
-                   <li>O resultado da operação é = <span>${v01-(v01 * v02) / 100}</span> </li>
-               </ul> 
+        <p>Total a pagar com desconto</p><br>
+        <p>O preço total sem desconto foi de <span> R$${v01.toFixed(2)} A Quantidade de desconto a receber é: ${v02}%</p><br>  
+        <p>O total a pagar será de R$${(v01-(v01 * v02) / 100).toFixed(2)}</p>
+               
                `
     }
 };
@@ -55,13 +51,10 @@ function juros(){
     resultado.style.display = 'flex';
 
     resultado.innerHTML = `
-                <h2>Contas</h2>
-               <ul>
-                   <li>Função: <span>JUROS</span> </li>
-                   <li>Preço total: <span> ${v01} </span> </li>
-                   <li>Quantidade de juros a receber: <span>${v02}</span> </li>       
-                   <li>O resultado da operação é = <span>${v01+(v01 * v02) / 100}</span> </li>
-               </ul> 
+        <p>Total a pagar com juros</p><br>
+        <p>O preço total sem juros foi de R$${v01.toFixed(2)} A porcentagem de juros a receber será de ${v02}%</p><br>
+        <p>O preço a pagar sera de R$${(v01+(v01 * v02) / 100).toFixed(2)}</p>
+             
                `
     }
 };
@@ -77,13 +70,10 @@ function comissao(){
     resultado.style.display = 'flex';
 
     resultado.innerHTML = `
-                <h2>Contas</h2>
-               <ul>
-                   <li>Função: <span>COMISSÃO</span> </li>
-                   <li>Preço vendido: <span> ${v01} </span> </li>
-                   <li>quantia da comissão: <span>${v02}</span> </li>       
-                   <li>O resultado da operação é = <span>${(v01 * v02) / 100}</span> </li>
-               </ul> 
+        <p>Comissão </p><br>
+        <p>O preço das vendas foi de: R$${v01.toFixed(2)} e a porcentagem da comissão será de: ${v02}%</p><br>      
+        <p>A quantidade de comissão será de R$${((v01 * v02) / 100).toFixed(2)}</p><br>
+             
                `
     }
 
@@ -99,14 +89,10 @@ function lucro(){
     
     resultado.style.display = 'flex';
 
-    resultado.innerHTML = `
-                <h2>Contas</h2>
-               <ul>
-                   <li>Função: <span>LUCRO</span> </li>
-                   <li>Preço vendido para o usuario: <span> ${v01} </span> </li>
-                   <li>Preço comprado pelo vendedor: <span>${v02}</span> </li>       
-                   <li>O resultado da operação é = <span>${(v01-v02)}</span> </li>
-               </ul> 
+    resultado.innerHTML = `     
+        <p>Lucro</p> <br>
+        <p>O preço que foi vendido ao cliente foi de: R$${v01.toFixed(2)} E  o Preço comprado pelo vendedor foi de: R$${v02.toFixed(2)}</p><br>     
+        <p>O lucro recebido foi: R$${(v01-v02).toFixed(2)}</p><br>
                `
     }
 

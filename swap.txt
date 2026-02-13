@@ -4,3 +4,5 @@ juros= ele precisa saber o preço total a pagar, e a quantidade de juros que o u
 comissao= ele precisa saber o preço vendido e o quanto de comissao a pessoa recebe por aquele preço?
 Valor 02 como taxa aplicada sobre o Valor 01.
 lucro= seria o preço pago pelo usuario e o preciso pago pelo vendedor, menos
+
+segunda parte, vou fazer as mensagens mais bonitas e fazer o css

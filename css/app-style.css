@@ -1,5 +1,58 @@
-.buttons, header, .card{
+body{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(167, 109, 194);
+
+}
+.container{
+    
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(188, 144, 209);
+    border-radius: 25px;
+    width: 50%;
+}
+header{
     display: flex;
     justify-content: center;
     text-align: center;
+    color: purple;
+ 
+}
+
+.buttons{
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.buttons button{
+    background-color: rgb(211, 158, 211);
+    border-radius: 20px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.inputs{
+    font-size: 20px ;
+    color: rgb(69, 1, 95);
+
+}
+input{
+    border-radius: 15px;
+}
+
+.resultado{
+    font-size: 30px;
+    flex-direction: column;
+
 }

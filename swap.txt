@@ -1,0 +1,6 @@
+total = ele tem que saber a quantidade de produtos, e o valor de cada um para dps multiplicar
+desconto =  tem que saber o preço total a pagar, e a quantidadede desconto que o usuario vai receber, fazendo assim o preço total menos a multiplicação desses valores dividida por 100
+juros= ele precisa saber o preço total a pagar, e a quantidade de juros que o usuario vai receber, fazendo o preço mais o preço vezes o juros dividido por cem
+comissao= ele precisa saber o preço vendido e o quanto de comissao a pessoa recebe por aquele preço?
+Valor 02 como taxa aplicada sobre o Valor 01.
+lucro= seria o preço pago pelo usuario e o preciso pago pelo vendedor, menos

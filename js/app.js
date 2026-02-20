@@ -1,9 +1,11 @@
 const inp01 = document.getElementById('valor01');
 const inp02 = document.getElementById('valor02');
+const resultado = document.getElementById('resultado');
 
 function calcularTotal(){
     const v01 = parseFloat(inp01.value);
     const v02 = parseFloat(inp02.value);
+
 
     //vou ver se os valores estao inseridos
     if (isNaN (v01) || isNaN (v02)) {

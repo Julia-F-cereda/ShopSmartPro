@@ -36,8 +36,8 @@ function desconto(){
 
     resultado.innerHTML = `
         <h1>Total a pagar com desconto</h1><br>
-        <p>O preço total sem desconto foi de: R$${v01.toFixed(2)}. A Quantidade de desconto a receber é de: ${v02}%</p><br>  
-        <p>O total a pagar será de R$${(v01-(v01 * v02) / 100).toFixed(2)}.</p>
+        <p>Preço total: R$ ${v01.toFixed(2)}. Quantidade de desconto: ${v02}%</p><br>  
+        <p>O total a pagar será: R$ ${(v01-(v01 * v02) / 100).toFixed(2)}.</p>
             `
     }
 };
@@ -56,8 +56,8 @@ function juros(){
 
     resultado.innerHTML = `
         <h1>Total a pagar com juros</h1><br>
-        <p>O preço total sem juros foi de: R$${v01.toFixed(2)}. A porcentagem de juros a receber será de ${v02}%</p><br>
-        <p>O preço a pagar será de: R$${(v01+(v01 * v02) / 100).toFixed(2)}.</p>
+        <p>Preço total sem juros: R$ ${v01.toFixed(2)}.Porcentagem de juros: ${v02}%</p><br>
+        <p>Preço a pagar: R$ ${(v01+(v01 * v02) / 100).toFixed(2)}.</p>
              
                `
     }
@@ -76,8 +76,8 @@ function comissao(){
 
     resultado.innerHTML = `
         <h1>Comissão </h1><br>
-        <p>O preço das vendas foi de: R$${v01.toFixed(2)}.A porcentagem da comissão será de: ${v02}%</p><br>      
-        <p>A quantidade de comissão será de: R$${((v01 * v02) / 100).toFixed(2)}.</p>
+        <p>Preço das vendas: R$ ${v01.toFixed(2)}.Porcentagem da comissão: ${v02}%</p><br>      
+        <p>Quantidade de comissão: R$ ${((v01 * v02) / 100).toFixed(2)}.</p>
              
                `
     }
@@ -97,8 +97,8 @@ function lucro(){
 
     resultado.innerHTML = `     
         <h1>Lucro</h1> <br>
-        <p>O preço que foi vendido ao cliente foi de: R$${v01.toFixed(2)}.O Preço comprado pelo vendedor foi de: R$${v02.toFixed(2)}</p><br>     
-        <p>O lucro recebido foi: R$${(v01-v02).toFixed(2)}.</p>
+        <p>Preço vendido ao cliente: R$ ${v01.toFixed(2)}.Preço comprado pelo vendedor: R$ ${v02.toFixed(2)}</p><br>     
+        <p>Lucro recebido: R$ ${(v01-v02).toFixed(2)}.</p>
                `
     }
 

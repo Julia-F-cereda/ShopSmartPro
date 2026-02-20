@@ -33,7 +33,7 @@ function desconto(){
     }else{
     
     
-
+    resultado.style.display = 'flex';
     resultado.innerHTML = `
         <h1>Total a pagar com desconto</h1><br>
         <p>Preço total: R$ ${v01.toFixed(2)}. Quantidade de desconto: ${v02}%</p><br>  
@@ -53,7 +53,7 @@ function juros(){
     }else{
     
     
-
+    resultado.style.display = 'flex';
     resultado.innerHTML = `
         <h1>Total a pagar com juros</h1><br>
         <p>Preço total sem juros: R$ ${v01.toFixed(2)}.Porcentagem de juros: ${v02}%</p><br>
@@ -73,7 +73,7 @@ function comissao(){
     }else{
     
     
-
+    resultado.style.display = 'flex';
     resultado.innerHTML = `
         <h1>Comissão </h1><br>
         <p>Preço das vendas: R$ ${v01.toFixed(2)}.Porcentagem da comissão: ${v02}%</p><br>      
@@ -94,7 +94,7 @@ function lucro(){
     }else{
     
    
-
+    resultado.style.display = 'flex';
     resultado.innerHTML = `     
         <h1>Lucro</h1> <br>
         <p>Preço vendido ao cliente: R$ ${v01.toFixed(2)}.Preço comprado pelo vendedor: R$ ${v02.toFixed(2)}</p><br>     

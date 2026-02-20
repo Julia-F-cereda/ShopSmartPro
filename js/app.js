@@ -9,7 +9,7 @@ function calcularTotal(){
 
     //vou ver se os valores estao inseridos
     if (isNaN (v01) || isNaN (v02)) {
-        alert('Um dos valores não foram inseridos, tente novamente');
+        resultado.innerHTML = `Um dos valores não foram inseridos, tente novamente`
     }else{
     
     resultado.style.display = 'flex';
@@ -27,7 +27,7 @@ function desconto(){
 
     //vou ver se os valores estao inseridos
     if (isNaN (v01) || isNaN (v02)) {
-        alert('Um dos valores não foram inseridos, tente novamente');
+       resultado.innerHTML = `Um dos valores não foram inseridos, tente novamente`
     }else{
     
     resultado.style.display = 'flex';
@@ -47,7 +47,7 @@ function juros(){
 
     //vou ver se os valores estao inseridos
     if (isNaN (v01) || isNaN (v02)) {
-        alert('Um dos valores não foram inseridos, tente novamente');
+        resultado.innerHTML = `Um dos valores não foram inseridos, tente novamente`
     }else{
     
     resultado.style.display = 'flex';
@@ -66,7 +66,7 @@ function comissao(){
 
     //vou ver se os valores estao inseridos
     if (isNaN (v01) || isNaN (v02)) {
-        alert('Um dos valores não foram inseridos, tente novamente');
+        resultado.innerHTML = `Um dos valores não foram inseridos, tente novamente`
     }else{
     
     resultado.style.display = 'flex';
@@ -86,7 +86,7 @@ function lucro(){
 
     //vou ver se os valores estao inseridos
     if (isNaN (v01) || isNaN (v02)) {
-        alert('Um dos valores não foram inseridos, tente novamente');
+       resultado.innerHTML = `Um dos valores não foram inseridos, tente novamente`
     }else{
     
     resultado.style.display = 'flex';

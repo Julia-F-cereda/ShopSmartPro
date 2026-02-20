@@ -10,15 +10,15 @@ function calcularTotal(){
     //vou ver se os valores estao inseridos
     if (isNaN (v01) || isNaN (v02)) {
         resultado.style.display = 'flex';
-        resultado.innerHTML = `<p>Um dos valores não foram inseridos, tente novamente</p>`;
+        resultado.innerHTML = `<p>Um dos valores não foram inseridos, Tente novamente!</p>`;
     }else{
     
     
 
     resultado.innerHTML = ` 
         <h1>Total a pagar</h1><br>
-        <p>Foram comprados ${v01} produtos cada um custou R$${v02.toFixed(2)}</p><br>
-        <p>O valor a pagar sera de R$${(v01 * v02).toFixed(2)}</p>
+        <p>Foram comprados ${v01} produtos, Cada produto teve um valor de: R$${v02.toFixed(2)}.</p><br>
+        <p>O valor total a pagar será de: R$${(v01 * v02).toFixed(2)}.</p>
       `
 }
 };
@@ -29,15 +29,15 @@ function desconto(){
     //vou ver se os valores estao inseridos
     if (isNaN (v01) || isNaN (v02)) {
         resultado.style.display = 'flex';
-       resultado.innerHTML = `<p>Um dos valores não foram inseridos, tente novamente</p>`;
+       resultado.innerHTML = `<p>Um dos valores não foram inseridos, Tente novamente!</p>`;
     }else{
     
     
 
     resultado.innerHTML = `
         <h1>Total a pagar com desconto</h1><br>
-        <p>O preço total sem desconto foi de <span> R$${v01.toFixed(2)} A Quantidade de desconto a receber é: ${v02}%</p><br>  
-        <p>O total a pagar será de R$${(v01-(v01 * v02) / 100).toFixed(2)}</p>
+        <p>O preço total sem desconto foi de: R$${v01.toFixed(2)}. A Quantidade de desconto a receber é de: ${v02}%</p><br>  
+        <p>O total a pagar será de R$${(v01-(v01 * v02) / 100).toFixed(2)}.</p>
             `
     }
 };
@@ -49,15 +49,15 @@ function juros(){
     //vou ver se os valores estao inseridos
     if (isNaN (v01) || isNaN (v02)) {
         resultado.style.display = 'flex';
-        resultado.innerHTML = `<p>Um dos valores não foram inseridos, tente novamente</p>`;
+        resultado.innerHTML = `<p>Um dos valores não foram inseridos, Tente novamente!</p>`;
     }else{
     
     
 
     resultado.innerHTML = `
         <h1>Total a pagar com juros</h1><br>
-        <p>O preço total sem juros foi de R$${v01.toFixed(2)} A porcentagem de juros a receber será de ${v02}%</p><br>
-        <p>O preço a pagar sera de R$${(v01+(v01 * v02) / 100).toFixed(2)}</p>
+        <p>O preço total sem juros foi de: R$${v01.toFixed(2)}. A porcentagem de juros a receber será de ${v02}%</p><br>
+        <p>O preço a pagar será de: R$${(v01+(v01 * v02) / 100).toFixed(2)}.</p>
              
                `
     }
@@ -69,15 +69,15 @@ function comissao(){
     //vou ver se os valores estao inseridos
     if (isNaN (v01) || isNaN (v02)) {
         resultado.style.display = 'flex';
-        resultado.innerHTML = `<p>Um dos valores não foram inseridos, tente novamente</p>`;
+        resultado.innerHTML = `<p>Um dos valores não foram inseridos, Tente novamente!</p>`;
     }else{
     
     
 
     resultado.innerHTML = `
         <h1>Comissão </h1><br>
-        <p>O preço das vendas foi de: R$${v01.toFixed(2)} e a porcentagem da comissão será de: ${v02}%</p><br>      
-        <p>A quantidade de comissão será de R$${((v01 * v02) / 100).toFixed(2)}</p>
+        <p>O preço das vendas foi de: R$${v01.toFixed(2)}.A porcentagem da comissão será de: ${v02}%</p><br>      
+        <p>A quantidade de comissão será de: R$${((v01 * v02) / 100).toFixed(2)}.</p>
              
                `
     }
@@ -90,15 +90,15 @@ function lucro(){
     //vou ver se os valores estao inseridos
     if (isNaN (v01) || isNaN (v02)) {
         resultado.style.display = 'flex';
-        resultado.innerHTML = `<p>Um dos valores não foram inseridos, tente novamente</p>`;
+        resultado.innerHTML = `<p>Um dos valores não foram inseridos, Tente novamente!</p>`;
     }else{
     
    
 
     resultado.innerHTML = `     
         <h1>Lucro</h1> <br>
-        <p>O preço que foi vendido ao cliente foi de: R$${v01.toFixed(2)} E  o Preço comprado pelo vendedor foi de: R$${v02.toFixed(2)}</p><br>     
-        <p>O lucro recebido foi: R$${(v01-v02).toFixed(2)}</p>
+        <p>O preço que foi vendido ao cliente foi de: R$${v01.toFixed(2)}.O Preço comprado pelo vendedor foi de: R$${v02.toFixed(2)}</p><br>     
+        <p>O lucro recebido foi: R$${(v01-v02).toFixed(2)}.</p>
                `
     }
 

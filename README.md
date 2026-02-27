@@ -6,10 +6,14 @@
 </p>
 
 <h3>DESCRIÇÃO DO PROJETO</h3>
-Essse projeto foi criado para calcular valores de uma loja, onde o usuario insere a informação pedida e o programa retorna as contas ja feitas. Foi um projeto feito para treinar programação em JavaScript.
+Este projeto foi desenvolvido com o objetivo de calcular valores de produtos em uma loja. 
+O usuário insere as informações solicitadas e o sistema retorna automaticamente os cálculos realizados. 
+O projeto foi criado para praticar lógica de programação utilizando JavaScript.
 
-<h3>PRÉ-REQUISITOS</h3>
-Para rodar o arquivo em seu computador basta apenas rodar o arquivo index em live server.
+<h3>COMO EXECUTAR</h3>
+<P>1. Baixe os arquivos do projeto.</P>
+<P>2. Abra o arquivo `index.html`.</P>
+<P>3. Execute utilizando a extensão Live Server no VS Code.</P>
 
 <h3>FUNCIONALIDADES DO PROJETO</h3>
 <p>BOTÕES DE CALCULO:  Os botões de calcular funcionam de uma forma basica, os inputs recebem os valores e calculam.</p>
@@ -17,6 +21,8 @@ Para rodar o arquivo em seu computador basta apenas rodar o arquivo index em liv
 
 <h3>TECNOLOGIAS DO PROJETO</h3>
 <P>Java Script</P>
+<P>HTML</P>
+<P>CSS</P>
 
 
 

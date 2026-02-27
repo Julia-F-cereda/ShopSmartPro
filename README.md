@@ -24,6 +24,9 @@ O projeto foi criado para praticar lógica de programação utilizando JavaScrip
 <P>HTML</P>
 <P>CSS</P>
 
+<h3>LICENÇA</h3>
+<p>Este projeto está sob a licença MIT.</p>
+
 
 
 <h3>AUTOR</h3>
